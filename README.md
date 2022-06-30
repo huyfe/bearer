@@ -1,5 +1,5 @@
-# BEARER DIGITAL 🐻
+# BEARER DIGITAL
 
 ---
 
-We are young entrepreneurs full of energy
+We are young entrepreneurs full of energy 🔥
