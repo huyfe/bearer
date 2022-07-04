@@ -8,7 +8,11 @@ var concat = require('gulp-concat');
 
 // Compile Our Sass
 gulp.task('sass', function () {
-    return gulp.src('src/assets/scss/main.scss')
+    return gulp.src([
+        'src/assets/lib/**/*.css',
+        'src/assets/scss/main.scss',
+    ])
+        .pipe(concat('main.css'))
         .pipe(sass())
         .pipe(gulp.dest('src/assets/main/'))
         .pipe(livereload());
