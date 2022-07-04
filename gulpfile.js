@@ -8,7 +8,6 @@ var concat = require('gulp-concat');
 
 var sassFolder = [
     'src/assets/lib/**/*.css',
-    'src/assets/scss/**/*.scss',
     'src/assets/scss/main.scss',
 ];
 
