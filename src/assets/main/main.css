@@ -31,6 +31,40 @@ ul {
   list-style: none;
 }
 
+/*
+Font Face
+*/
+/*---------------------- Import Poppins -----------------------*/
+@font-face {
+  font-family: "Poppins";
+  font-weight: 300;
+  src: url("../fonts/Poppins/Poppins-Light.eot?") format("eot"), url("../fonts/Poppins/Poppins-Light.woff2") format("woff2"), url("../fonts/Poppins/Poppins-Light.woff") format("woff"), url("../fonts/Poppins/Poppins-Light.ttf") format("truetype"), url('../fonts/Poppins/Poppins-Light.svg#str-replace(Poppins, " ", "_")') format("svg");
+  font-display: swap; /* or block, swap, fallback, optional */
+}
+@font-face {
+  font-family: "Poppins";
+  font-weight: 400;
+  src: url("../fonts/Poppins/Poppins-Regular.eot?") format("eot"), url("../fonts/Poppins/Poppins-Regular.woff2") format("woff2"), url("../fonts/Poppins/Poppins-Regular.woff") format("woff"), url("../fonts/Poppins/Poppins-Regular.ttf") format("truetype"), url('../fonts/Poppins/Poppins-Regular.svg#str-replace(Poppins, " ", "_")') format("svg");
+  font-display: swap; /* or block, swap, fallback, optional */
+}
+@font-face {
+  font-family: "Poppins";
+  font-weight: 500;
+  src: url("../fonts/Poppins/Poppins-Medium.eot?") format("eot"), url("../fonts/Poppins/Poppins-Medium.woff2") format("woff2"), url("../fonts/Poppins/Poppins-Medium.woff") format("woff"), url("../fonts/Poppins/Poppins-Medium.ttf") format("truetype"), url('../fonts/Poppins/Poppins-Medium.svg#str-replace(Poppins, " ", "_")') format("svg");
+  font-display: swap; /* or block, swap, fallback, optional */
+}
+@font-face {
+  font-family: "Poppins";
+  font-weight: 600;
+  src: url("../fonts/Poppins/Poppins-SemiBold.eot?") format("eot"), url("../fonts/Poppins/Poppins-SemiBold.woff2") format("woff2"), url("../fonts/Poppins/Poppins-SemiBold.woff") format("woff"), url("../fonts/Poppins/Poppins-SemiBold.ttf") format("truetype"), url('../fonts/Poppins/Poppins-SemiBold.svg#str-replace(Poppins, " ", "_")') format("svg");
+  font-display: swap; /* or block, swap, fallback, optional */
+}
+@font-face {
+  font-family: "Poppins";
+  font-weight: 700;
+  src: url("../fonts/Poppins/Poppins-Bold.eot?") format("eot"), url("../fonts/Poppins/Poppins-Bold.woff2") format("woff2"), url("../fonts/Poppins/Poppins-Bold.woff") format("woff"), url("../fonts/Poppins/Poppins-Bold.ttf") format("truetype"), url('../fonts/Poppins/Poppins-Bold.svg#str-replace(Poppins, " ", "_")') format("svg");
+  font-display: swap; /* or block, swap, fallback, optional */
+}
 .button {
   color: black;
 }
@@ -41,6 +75,9 @@ ul {
 
 footer {
   min-height: 420px;
+}
+footer h1 {
+  font-family: "Poppins", sans-serif;
 }
 
 .button {
