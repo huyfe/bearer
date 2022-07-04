@@ -10,8 +10,10 @@ var concat = require('gulp-concat');
 gulp.task('sass', function () {
     return gulp.src([
         'src/assets/lib/**/*.css',
+        'src/assets/scss/**/*.scss',
         'src/assets/scss/main.scss',
     ])
+        .pipe(sass())
         .pipe(concat('main.css'))
         .pipe(sass())
         .pipe(gulp.dest('src/assets/main/'))
@@ -29,6 +31,7 @@ gulp.task('js', function () {
 // Watch Files For Changes
 gulp.task('watch', function () {
     livereload.listen();
+    gulp.watch('src/assets/lib/**/*', gulp.series('sass'));
     gulp.watch('src/assets/scss/**/*', gulp.series('sass'));
     gulp.watch('src/assets/js/**/*', gulp.series('js'));
 });
