@@ -31,3 +31,7 @@ Font Face
 @include font-face(Poppins, "../fonts/Poppins/Poppins-Medium", 500);
 @include font-face(Poppins, "../fonts/Poppins/Poppins-SemiBold", 600);
 @include font-face(Poppins, "../fonts/Poppins/Poppins-Bold", 700);
+
+/*---------------------- Import Merriweather -----------------------*/
+@include font-face(Merriweather, "../fonts/Merriweather/Merriweather-Bold", 700);
+@include font-face(Merriweather, "../fonts/Merriweather/Merriweather-BoldItalic", 700);
