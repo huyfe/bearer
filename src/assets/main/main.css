@@ -39,6 +39,10 @@ ul {
   background: blue;
 }
 
+footer {
+  min-height: 420px;
+}
+
 .button {
   color: black;
 }
