@@ -38,7 +38,7 @@ gulp.task('js', function () {
 // Watch Files For Changes
 gulp.task('watch', function () {
     livereload.listen();
-    // gulp.watch('src/assets/lib/**/*', gulp.series('sass'));
+    gulp.watch('src/assets/scss/**/*', gulp.series('sass'));
     gulp.watch(sassFolder, gulp.series('sass'));
     gulp.watch(jsFolder, gulp.series('js'));
 });
