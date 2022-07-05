@@ -1,4 +1,22 @@
-.button {
-    color: black;
-    background: transparent;
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 18px 26px;
+    color: #686d77;
+
+    &.btn-rounded {
+        border-radius: 10px;
+    }
+    &.btn-special {
+        color: $white;
+        background-color: $color-special;
+        box-shadow: 0px 20px 35px rgba(241, 165, 1, 0.15);
+    }
+    &.btn-play {
+        .icon-circle {
+            background-color: $color-primary;
+            margin-right: 20px;
+        }
+    }
 }

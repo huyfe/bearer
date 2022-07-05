@@ -9,21 +9,73 @@
     <title>Bearer Digital</title>
 
     <link rel="stylesheet" href="./assets/main/main.css">
-    <link rel="stylesheet" href="./assets/lib/bootstrap/bootstrap.min.css">
 </head>
 
 <body>
-    <header></header>
-    
-    <main>
+    <header id="header" class="header">
+        <div class="container">
+            <div class="row align-items-start align-items-lg-center flex-lg-row flex-column">
+                <div class="col-auto">
+                    <div class="header__logo">
+                        <a href="#">
+                            <img class="header__logo__img" src="./assets/images/logo-header.webp" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col ml-auto">
+                    <nav class="header__nav w-100 text-lg-end text-start d-lg-block d-flex flex-column">
+                        <a href="#services">Dịch vụ</a>
+                        <a href="#showcase">Các Dự Án</a>
+                        <a href="#howToBook">Cách Book Website</a>
+                        <a href="#howToBook">Lời Chứng Thực</a>
+                        <a class="menu-item-has-dropdown d-inline-flex" href="#howToBook">EN <img
+                                src="./assets/images/icons/arrow-dropdown.svg" class="ms-1" alt=""></a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
 
+    <main>
+        <!-- Hero Section -->
+        <section id="heroSection" class="hero-section">
+            <div class="container">
+                <div class="row align-items-start align-items-lg-center flex-lg-row flex-column">
+                    <div class="col-6">
+                        <div class="hero-section__left">
+                            <h3 class="hero-section__label">Best Destinations around the world</h3>
+                            <h1 class="hero-section__title">Travel, enjoy
+                                and live a new
+                                and full life
+                            </h1>
+                            <p class="hero-section__description">
+                                Built Wicket longer admire do barton vanity itself do in it. Preferred to sportsmen it
+                                engrossed listening. Park gate sell they west hard for the.
+                            </p>
+                            <div class="hero-section__actions d-flex">
+                                <button class="btn btn-rounded btn-special">Find out more</button>
+                                <button class="btn btn-play p-0"><span class="icon-circle"><img
+                                            src="./assets/images/icons/arrow-play.svg" alt=""></span> Play
+                                    Demo</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="hero-section__right">
+                            <img src="./assets/images/hero-img.png" alt="" class="hero-section__img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Hero Section -->
     </main>
 
     <footer>
         <h1>DAY LA FOOTER</h1>
     </footer>
 
-    <script src="./assets/lib/bootstrap/bootstrap.min.js"></script>
+    <script src="./assets/main/main.js"></script>
 </body>
 
 </html>
